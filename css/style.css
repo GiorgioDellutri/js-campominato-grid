@@ -1,5 +1,18 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(67, 22, 110);
+    color: white;
+}
+
+header, footer{
+    background-color: white;
+}
+
+header{
+    height: 120px;
+}
+
+footer{
+    height: 80px;
 }
 
 div.grid-container{
@@ -12,4 +25,8 @@ div.grid-container div.square{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 2px solid white;
+}
+
+div.grid-container div.square.clicked{
+    background-color: rgb(18, 150, 150);
 }
