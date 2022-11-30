@@ -1,0 +1,15 @@
+body{
+    background-color: blueviolet;
+}
+
+div.grid-container{
+    width: 650px;
+    height: 650px;
+    border: 2px solid white;
+}
+
+div.grid-container div.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid white;
+}
