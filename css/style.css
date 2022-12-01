@@ -1,23 +1,19 @@
 body{
-    background-color: rgb(67, 22, 110);
-    color: white;
+    color: black;
 }
 
-header, footer{
-    background-color: white;
+main{
+    background-color: rgb(67, 22, 110);    
+    color: white; 
 }
 
 header{
-    height: 120px;
-}
-
-footer{
-    height: 80px;
+    background-color: white;
 }
 
 div.grid-container{
     width: 650px;
-    height: 650px;
+    height: 700px;
 }
 
 div.grid-container div.square{

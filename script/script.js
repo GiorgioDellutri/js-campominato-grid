@@ -1,14 +1,16 @@
 // RECUPERO IL TASTO PLAY DALLA SUA CLASSE
 let play = document.querySelector('div.play');
 
-// AGGIUNGO AL BOTTONE PLAY UN EVENTO. ESSO CONTERRA' TUTTO L'ALGORITMO
-play.addEventListener('click', function(){
     // RECUPERO IL PARENT
     const wrapperContainer = document.querySelector('div.grid-container');
 
     // INIZIALIZZO LA GRIGLIA
     wrapperContainer.innerHTML= "";
     
+
+// AGGIUNGO AL BOTTONE PLAY UN EVENTO. ESSO CONTERRA' TUTTO L'ALGORITMO
+play.addEventListener('click', function(){
+
     // CREO IL QUADRATO 100 VOLTE
     
     for (let i = 1; i <= 100; i++){
@@ -43,5 +45,13 @@ play.addEventListener('click', function(){
     } 
 
 })
+
+
+function squareIndex (index){
+    for(let i = 1; i <= 100; i++){
+        console.log(index[i]);
+    }
+    return index;
+}
 
 
